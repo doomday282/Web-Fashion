@@ -1,0 +1,163 @@
+// Main Sass File
+
+
+section#sale {
+    .container-fluid {
+        .sale-bg {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+section#navbar {
+    .container {
+        .input-search {
+            position: relative;
+            .form-control {
+                padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+            }
+            .search-icon {
+                position: absolute;
+                top: 50%;
+                left: 7%;
+                transform: translateY(-50%);
+            }
+        }
+        .account-cart {
+            font-size: 0.8rem;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#carousel {
+    .carousel-inner {
+        .carousel-item {
+            position: relative;
+            .noidung {
+                position: absolute;
+                animation-name: slide;
+                animation-duration: 3s;
+                animation-delay: 0s;
+                animation-fill-mode: forwards;
+                top: 50%;
+                left: 0%;
+                transform: translate(-50%, -50%);
+                .title-carousel {
+                    font-size: 3rem;
+                    font-family: 'Poiret One', cursive;
+                }
+                .content-carousel {
+                    font-size: 4rem;
+                    font-family: 'Limelight', cursive;
+                }
+                .btn-dark {
+                    padding: 0.8rem 3.5rem 0.8rem 3.5rem;
+                    border-radius: 2rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+section#promo-model {
+    .container {
+        .title-promo {
+            .title {
+                font-size: 1.7rem;
+            }
+            .sub {
+                font-size: 0.7rem;
+            }
+        }
+        .model-promo {
+            .title-model {
+                font-size: 0.9rem;
+            }
+            .sub-model {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+div#slide-product {
+    .title-product {
+        .sub {
+            font-size: 0.7rem;
+        }
+        .title {
+            font-size: 1.7rem;
+        }
+    }
+    .carousel-inner {
+        .carousel-item {
+            .rate {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+section#bg-bottom {
+    .bg {
+        position: relative;
+        .caption-bg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .sub-01 {
+                font-size: 0.7rem;
+            }
+            .title {
+                font-size: 1.8rem;
+            }
+            .sub-02 {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+section#late-post {
+    .sub {
+        font-size: 0.7rem;        
+    }
+    .title {
+        font-size: 1.7rem;
+    }
+    .layout {
+        position: relative;
+        img {
+            opacity: 1;
+            transition: 0.5s ease;
+            backface-visibility: hidden;
+        }
+        .overlay {
+            position: absolute;
+            opacity: 0;
+            transition: 0.5s ease;
+            top: 50%;
+            left: 50%;            
+            transform: translate(-50%,-50%);
+        }
+    }
+    .layout:hover img {
+        opacity: 0.3;
+    }
+    .layout:hover .overlay {
+        opacity: 1;
+       
+    }
+}
+
+// ANIMATION
+
+@keyframes slide {
+  from {top: 50%; left:0%;}
+  to {top: 50%; left: 50%;}
+}
