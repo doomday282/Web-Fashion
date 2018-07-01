@@ -1,3 +1,6 @@
+$title-color:#606060;
+$hover-title-color: #222;
+$bg-social: #bfbfbf;
 // Main Sass File
 
 
@@ -145,7 +148,7 @@ section#late-post {
             left: 50%;            
             transform: translate(-50%,-50%);
         }
-    }
+    }   
     .layout:hover img {
         opacity: 0.3;
     }
@@ -153,8 +156,129 @@ section#late-post {
         opacity: 1;
        
     }
+    .content {
+        .title-content {
+            font-size: 1.1rem;
+            a {
+                text-decoration: none;
+                color: $title-color;
+            }
+            a:hover {
+                color: $hover-title-color;
+            }
+
+        }
+        .date-content {
+            font-size: 0.8rem;
+        }
+        .text-content {
+            font-size: 0.9rem;
+        }
+        .button-content {
+            font-size: 0.8rem;
+            a {
+                text-decoration: none;
+                color: $title-color;
+            }
+            a:hover {
+                color: $hover-title-color;
+            }
+        }
+    }
 }
 
+section#delivery {
+    .free-delivery {
+        .icon-delivery {
+            .fas {
+                font-size: 2rem;
+                color: $title-color;
+            }
+        }
+        .content-delivery {
+            .title {
+                font-size: 0.9rem;
+                color: $title-color;
+            }
+            .sub-title {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+section#newsletter {
+    .container {
+        .title {
+            font-size: 2rem;
+        }
+        .subscribe {
+            position: relative;
+           
+            .email {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,50%);              
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                padding-bottom: 0.8rem;
+                padding-top: 0.8rem;
+              
+            }
+            .button {
+                position: absolute;
+                top: 50%;
+                left: 70%;
+                transform: translate(-50%,150%);
+                text-decoration: none;
+                color: $title-color;
+            }
+            .button:hover {
+                color: $hover-title-color;
+            }
+        }
+        .social-icon {
+            .fab {
+                background-color: $bg-social;
+                color: white;
+                font-size: 1.2rem;              
+                border-radius: 5rem;
+            }
+            .fa-facebook-f {
+                padding: 0.8rem 1.1rem 0.8rem 1.1rem;
+            }
+            .fa-twitter {
+                padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+            } 
+            .fa-google {
+                padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+            }
+            .fa-instagram {
+                padding: 0.8rem 0.9rem 0.8rem 0.9rem;
+            }
+
+        }
+    }
+}
+
+section#footer {
+    .copy-right {
+        font-size: 0.9rem;
+        color: $bg-social;   
+     }
+    .link {
+        a {
+            text-decoration: none;
+            font-size: 0.7rem;
+            color: $bg-social;
+        }
+        a:hover {
+            color: white;
+        }
+    }
+}
 // ANIMATION
 
 @keyframes slide {

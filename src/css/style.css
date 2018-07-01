@@ -99,6 +99,94 @@ section#late-post .layout:hover img {
 section#late-post .layout:hover .overlay {
   opacity: 1; }
 
+section#late-post .content .title-content {
+  font-size: 1.1rem; }
+  section#late-post .content .title-content a {
+    text-decoration: none;
+    color: #606060; }
+  section#late-post .content .title-content a:hover {
+    color: #222; }
+
+section#late-post .content .date-content {
+  font-size: 0.8rem; }
+
+section#late-post .content .text-content {
+  font-size: 0.9rem; }
+
+section#late-post .content .button-content {
+  font-size: 0.8rem; }
+  section#late-post .content .button-content a {
+    text-decoration: none;
+    color: #606060; }
+  section#late-post .content .button-content a:hover {
+    color: #222; }
+
+section#delivery .free-delivery .icon-delivery .fas {
+  font-size: 2rem;
+  color: #606060; }
+
+section#delivery .free-delivery .content-delivery .title {
+  font-size: 0.9rem;
+  color: #606060; }
+
+section#delivery .free-delivery .content-delivery .sub-title {
+  font-size: 0.8rem; }
+
+section#newsletter .container .title {
+  font-size: 2rem; }
+
+section#newsletter .container .subscribe {
+  position: relative; }
+  section#newsletter .container .subscribe .email {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem; }
+  section#newsletter .container .subscribe .button {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, 150%);
+    text-decoration: none;
+    color: #606060; }
+  section#newsletter .container .subscribe .button:hover {
+    color: #222; }
+
+section#newsletter .container .social-icon .fab {
+  background-color: #bfbfbf;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5rem; }
+
+section#newsletter .container .social-icon .fa-facebook-f {
+  padding: 0.8rem 1.1rem 0.8rem 1.1rem; }
+
+section#newsletter .container .social-icon .fa-twitter {
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem; }
+
+section#newsletter .container .social-icon .fa-google {
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem; }
+
+section#newsletter .container .social-icon .fa-instagram {
+  padding: 0.8rem 0.9rem 0.8rem 0.9rem; }
+
+section#footer .copy-right {
+  font-size: 0.9rem;
+  color: #bfbfbf; }
+
+section#footer .link a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #bfbfbf; }
+
+section#footer .link a:hover {
+  color: white; }
+
 @keyframes slide {
   from {
     top: 50%;
